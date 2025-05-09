@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Project_cal</string>
+    <string name="nh_p_a">Nhập A</string>
+    <string name="nh_p_b">Nhập B</string>
+    <string name="k_t_qu">Kết quả</string>
+    <string name="a_b">A+B</string>
 </resources>
