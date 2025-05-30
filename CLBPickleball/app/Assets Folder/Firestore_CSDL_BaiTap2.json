@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "uid": "admin_uid_123",
+      "display_name": "Admin TLU",
+      "email": "admin@tlu.edu.vn",
+      "role": "admin"
+    },
+    {
+      "uid": "member_uid_456",
+      "display_name": "Nguyen Van A",
+      "email": "vana@gmail.com",
+      "role": "member"
+    }
+  ],
+  "players": [
+    {
+      "id": "MBR001",
+      "member_code": "MBR001",
+      "username": "Nguyen Van A",
+      "avatar": "mbr001.jpg",
+      "birthday": "2005-10-10",
+      "hometown": "Ha Noi",
+      "residence": "TP.HCM",
+      "rating_single": 1.25,
+      "rating_double": 1.1
+    },
+    {
+      "id": "MBR002",
+      "member_code": "MBR002",
+      "username": "Tran Thi B",
+      "avatar": "mbr002.jpg",
+      "birthday": "2006-03-15",
+      "hometown": "Da Nang",
+      "residence": "TP.HCM",
+      "rating_single": 0.95,
+      "rating_double": 1.05
+    }
+  ],
+  "matches": [
+    {
+      "id": "MATCH001",
+      "match_code": "MATCH001",
+      "type": "single",
+      "player1": "MBR001",
+      "player2": "MBR002",
+      "score1": 15,
+      "score2": 10,
+      "winner": "MBR001",
+      "status": "completed",
+      "datetime": "2024-05-20T09:00:00"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TRX001",
+      "transaction_code": "TRX001",
+      "member_code": "MBR002",
+      "type": "penalty",
+      "amount": 20000,
+      "status": "unpaid",
+      "note": "Phat thua tran MATCH001",
+      "created_at": "2024-05-20T10:00:00"
+    }
+  ],
+  "news": [
+    {
+      "id": "NEWS001",
+      "news_code": "NEWS001",
+      "title": "Giao lưu đầu mùa",
+      "content": "Ngày 20/5 CLB tổ chức giao lưu...",
+      "image": "news001.jpg",
+      "author": "admin_uid_123",
+      "timestamp": "2024-05-20T12:00:00"
+    }
+  ]
+}

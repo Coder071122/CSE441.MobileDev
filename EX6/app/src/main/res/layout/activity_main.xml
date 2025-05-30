@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:text="Thông tin cá nhân"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtTen"
+            android:hint="Họ tên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editCMD"
+            android:hint="CMND"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Bằng cấp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/idgroup"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/radTrungcap" android:text="Trung cấp"/>
+            <RadioButton android:id="@+id/radCaodang" android:text="Cao đẳng"/>
+            <RadioButton android:id="@+id/radDaihoc" android:text="Đại học"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="Sở thích"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox android:id="@+id/chkdobao" android:text="Đọc báo"/>
+        <CheckBox android:id="@+id/chkdosach" android:text="Đọc sách"/>
+        <CheckBox android:id="@+id/chdkodocode" android:text="Doc coding"/>
+
+        <EditText
+            android:id="@+id/ediBosung"
+            android:hint="Thông tin bổ sung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/btnsend"
+            android:text="Gửi thông tin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
