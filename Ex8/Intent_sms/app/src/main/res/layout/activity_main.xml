@@ -1,52 +1,25 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="100dp">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/iv_img"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="300dp"
+        android:src="@drawable/download"
+        android:layout_marginBottom="200dp"/>
 
-        <EditText
-            android:id="@+id/editTextCustomerName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Tên khách hàng"/>
-
-        <Button
-            android:id="@+id/buttonCalculateTotal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tính TT"/>
-
-        <Button
-            android:id="@+id/buttonNext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tiếp"/>
-
-        <Button
-            android:id="@+id/buttonStatistics"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thống kê"/>
-
-        <TextView
-            android:id="@+id/textViewTotalCustomers"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:id="@+id/textViewTotalVIPCustomers"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:id="@+id/textViewTotalRevenue"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-</ScrollView>
+    <ImageButton
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/camera"
+        android:scaleType="fitCenter"/>
+</LinearLayout>
