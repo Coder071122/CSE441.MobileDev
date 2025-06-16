@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_h1"
+            android:layout_width="60dp"
+            android:layout_height="37dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txt_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MuaTM:" />
+
+        <TextView
+            android:id="@+id/txt_buytm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16220"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BanTM:" />
+
+        <TextView
+            android:id="@+id/txt_selltm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16370"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MuaCK" />
+
+        <TextView
+            android:id="@+id/txt_buyck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22920"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10sp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BanCK" />
+
+        <TextView
+            android:id="@+id/txt_sellck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23170"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>
